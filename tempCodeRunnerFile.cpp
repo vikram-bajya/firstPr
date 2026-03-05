@@ -1,4 +1,5 @@
-if(i>=5){
-    // for(int j=i;j>=1;j--   ){
-    //     cout<<"#"<<" "<<endl;
-    // }}
+for(int j=i;j<=n-i-2;j++){
+
+    //     cout<<"*";
+        
+    // }
