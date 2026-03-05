@@ -156,41 +156,41 @@ cout<<" "<<table ;
 
 // @@ check armoston number
 
-// int n;
-// cout<<"enter a number: "<<endl;
-// cin>>n;
-// int armstronNum=0;
-// for(int i= n;i>0;i=i/10){
-//    int ldt=(i%10);
+int n;
+cout<<"enter a number: "<<endl;
+cin>>n;
+int armstronNum=0;
+for(int i= n;i>0;i=i/10){
+   int ldt=(i%10);
  
-//     int cubic;
-//     cubic=ldt*ldt*ldt;
+    int cubic;
+    cubic=ldt*ldt*ldt;
    
-//     armstronNum=armstronNum+cubic;
-// }
-// cout<<"armstron : "<<armstronNum<<endl;
-// if(n==armstronNum){
-//     cout<<"number is armstron number"<<n<<endl;
-// }else{
-//     cout<<"number is not armstron number: ";
-// }
-// cout<<armstronNum;
+    armstronNum=armstronNum+cubic;
+}
+cout<<"armstron : "<<armstronNum<<endl;
+if(n==armstronNum){
+    cout<<"number is armstron number"<<n<<endl;
+}else{
+    cout<<"number is not armstron number: ";
+}
+cout<<armstronNum;
 
 
 // @@ given number is porime or not
 
-// int n;
-// cout<<"enter a number: "<<endl;
-// cin>>n;
+int n;
+cout<<"enter a number: "<<endl;
+cin>>n;
 
-// for(int i=2;i<=n-1;i++){
-//     if(n%i==0){
-//         cout<<"this number is not prime number: "<<endl;
-//     }else{
-//         cout<<"number is prmie number";
-//     } 
-//     break;
-// }
+for(int i=2;i<=n-1;i++){
+    if(n%i==0){
+        cout<<"this number is not prime number: "<<endl;
+    }else{
+        cout<<"number is prmie number";
+    } 
+    break;
+}
 
     return 0;       
 }
