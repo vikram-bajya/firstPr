@@ -177,13 +177,13 @@ if(n==armstronNum){
 cout<<armstronNum;
 
 
-// @@ given number is porime or not
+// @@ given number is prime or not
 
 int n;
 cout<<"enter a number: "<<endl;
 cin>>n;
 
-for(int i=2;i<=n-1;i++){
+for(int i=2;i<=n-1;i++){    //@@ (int i=2;i*i<=n;i++)   brcause root(i)=n are root of number 
     if(n%i==0){
         cout<<"this number is not prime number: "<<endl;
     }else{

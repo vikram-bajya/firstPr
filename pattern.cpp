@@ -3,22 +3,22 @@ using namespace std;
 
 int main (){
 
-    // for (int i=4;i>=1;i--){
-    //     for(int j=i;j>=1;j--){
+    for (int i=4;i>=1;i--){
+        for(int j=i;j>=1;j--){
          
-    //         cout<<"*"<<" ";
+            cout<<"*"<<" ";
          
             
-    //     }
-    //     cout<<endl;
-    // }
-// int n=5;
-//     for (int i=1;i<=4;i++){
-//         for(int j=1;j<=i;j++){
-//          cout<<j<<" ";
-//         }
-//         cout<<endl;
-//     }
+        }
+        cout<<endl;
+    }
+int n=5;
+    for (int i=1;i<=4;i++){
+        for(int j=1;j<=i;j++){
+         cout<<j<<" ";
+        }
+        cout<<endl;
+    }
 // output
 
 // 1 
@@ -26,16 +26,16 @@ int main (){
 // 1 2 3 
 // 1 2 3 4 
 
-// char ch='A';
-// for(int i=1;i<=5;i++){
-//     for(int j=1;j<=i;j++){
-//         cout<<ch;
-//         ch++;
+char ch='A';
+for(int i=1;i<=5;i++){
+    for(int j=1;j<=i;j++){
+        cout<<ch;
+        ch++;
 
 
-//     }
-//     cout<<endl;
-// }
+    }
+    cout<<endl;
+}
 
 // @ output
 // A
@@ -44,19 +44,19 @@ int main (){
 // GHIJ
 // KLMNO
 
-// int n=6;
-// for(int i=1;i<=n;i++){
-//     cout<<"*";
-//     for(int j=1;j<=n-1;j++){
-//         if(i==1||i==n){
-//             cout<<"*";
-//         }else{
-//             cout<<" ";
+int n=6;
+for(int i=1;i<=n;i++){
+    cout<<"*";
+    for(int j=1;j<=n-1;j++){
+        if(i==1||i==n){
+            cout<<"*";
+        }else{
+            cout<<" ";
 
-//         }
-//     }
-//     cout<<"*"<<endl;
-// }
+        }
+    }
+    cout<<"*"<<endl;
+}
 
 // *******
 // *     *
@@ -65,31 +65,31 @@ int main (){
 // *     *
 // *******
 
-// int n=4;
-// for (int i=1;i<=n;i++){
-//         for(int j=1;j<=n-i;j++){
+int n=4;
+for (int i=1;i<=n;i++){
+        for(int j=1;j<=n-i;j++){
          
-//             cout<<" ";
+            cout<<" ";
     
-//         }
-//         for(int k=1;k<=i ;k++){
-//                 cout<<"*";
+        }
+        for(int k=1;k<=i ;k++){
+                cout<<"*";
 
-//             }
-//         cout<<endl;
-//     }
+            }
+        cout<<endl;
+    }
 //    *
 //   **
 //  ***
 // ****
 
-// int n=1;
+int n=1;
 
-// for(int i=1;i<=5;i++){
-//     for(int j=1;j<=i;j++){
-//     cout<<n++<<" ";
-//    }
-//    cout<<endl;
+for(int i=1;i<=5;i++){
+    for(int j=1;j<=i;j++){
+    cout<<n++<<" ";
+   }
+   cout<<endl;
 
 
 // }
@@ -103,22 +103,22 @@ int main (){
 
 // @@@ this not good code still it is work  but more line of code we writen
 
-// int n=4;
+int n=4;
 
-// for(int i=1;i<=n;i++){
-//     for(int j=i;j<=n;j++){
-//         cout<<" ";
-//     }
-//     for(int j=i;j>=1;j--){
-//         cout<<"*";
-//     }
-//     for(int j=i+1;j>=n-1;j--){
+for(int i=1;i<=n;i++){
+    for(int j=i;j<=n;j++){
+        cout<<" ";
+    }
+    for(int j=i;j>=1;j--){
+        cout<<"*";
+    }
+    for(int j=i+1;j>=n-1;j--){
 
-//         cout<<"*";
+        cout<<"*";
         
-//     }
-//     cout<<endl;
-// }
+    }
+    cout<<endl;
+}
             
 //     *
 //    ***
@@ -126,19 +126,19 @@ int main (){
 //  *******
 
 // @@@ this one is best prectic 
-// int n=10;
-// for(int i=1;i<=n;i++){
-//     for(int j=1;j<=n-i;j++){
-//         cout<<" ";
-//     }
+int n=10;
+for(int i=1;i<=n;i++){
+    for(int j=1;j<=n-i;j++){
+        cout<<" ";
+    }
     
-//     for(int j=1;j<=2*i-1;j++){
+    for(int j=1;j<=2*i-1;j++){
         
-//         cout<<"*";
-//     }
+        cout<<"*";
+    }
    
-//     cout<<endl;
-// }
+    cout<<endl;
+}
  
 //          *
 //         ***
@@ -152,24 +152,24 @@ int main (){
 // *******************
 
 
-// int n=4;
-// for(int i=1;i<=n;i++){
-//     for(int j=1;j<=n-i;j++){
-//         cout<<" ";
-//     }
-//     for(int j=1;j<=2*i-1;j++){
-//         cout<<"*";
-//     }
-//     cout<<endl;
-// }for(int i=n;i>=1;i--){
-//     for(int j=1;j<=n-i;j++){
-//         cout<<" ";
-//     }
-//     for(int j=1;j<=2*i-1;j++){
-//         cout<<"*";
-//     }
-//     cout<<endl;
-// }
+int n=4;
+for(int i=1;i<=n;i++){
+    for(int j=1;j<=n-i;j++){
+        cout<<" ";
+    }
+    for(int j=1;j<=2*i-1;j++){
+        cout<<"*";
+    }
+    cout<<endl;
+}for(int i=n;i>=1;i--){
+    for(int j=1;j<=n-i;j++){
+        cout<<" ";
+    }
+    for(int j=1;j<=2*i-1;j++){
+        cout<<"*";
+    }
+    cout<<endl;
+}
 
 //    *
 //   ***
@@ -224,6 +224,64 @@ int main (){
 // *            *
 
 
+//     int n=5;
+    
+//     for(int i=0;i<=5;i++){
+        
+//         bool num = (i % 2 == 0);
+//         for (int j=0;j<=i;j++){
+//             cout<<num<<" ";
+//             num=!num;
+//         }
+    
+//         cout<<endl;
+//     }
 
+// 1
+// 0 1
+// 1 0 1
+// 0 1 0 1
+// 1 0 1 0 1
+// 0 1 0 1 0 1
+
+
+// int n=5;
+// for (int i=n;i>=1;i--){
+//     for(int j=i;j>=1;j--){
+//         cout<<" ";
+//     }
+//     for(int j=1;j<=n;j++){
+//     cout<<"* ";
+//     }
+//     cout<<endl;
+// }
+
+//      * * * * * 
+//     * * * * *
+//    * * * * *
+//   * * * * *
+//  * * * * *
+
+// int n=5;
+// for(int i=1;i<=n;i++){
+//     for(int j=1;j<=n-i;j++){
+//         cout<<" ";
+//     }
+//     for(int j=i;j>=1;j--){
+//         cout<<j;
+       
+//     }
+//     for(int j=2;j<=i;j++){
+//         cout<<j;
+       
+//     }
+//     cout<<endl;
+
+//     1
+//    212
+//   32123
+//  4321234
+// 543212345
+// }
     return 0;
 }
